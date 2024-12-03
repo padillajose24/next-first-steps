@@ -13,7 +13,7 @@ const navItems=[
 //aaaaa
 export const Navbar = () => {
   return (
-<nav className='flex bg-blue-800 bg-opacity-30 p-2 m-2 rounded'>
+<nav className='flex bg-blue-800 bg-opacity-30 p-4 m-2 mr-2 rounded'>
 
 <Link className=' flex items-center' href="./">
 
@@ -21,8 +21,8 @@ export const Navbar = () => {
 <span>Home</span>
 </Link>
  
-     <div className='flex-1'></div>
-
+     <div className='flex-1   mr-2'>  </div>
+    
 {
 navItems.map(navItems=>(
 

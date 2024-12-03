@@ -18,7 +18,7 @@ export const ActiveLink = ({    path,   text}:Props) => {
 
 
 <Link 
-className={ `${ style.link } ${(pathName===path)&& style['active-link']}`}
+className={ `mr-3 ${ style.link } ${(pathName===path)&& style['active-link']}`}
  href={path}
  > {text}</Link>
 

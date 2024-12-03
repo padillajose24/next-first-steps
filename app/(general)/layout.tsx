@@ -7,7 +7,7 @@ export default function generalLayout({
   return (
     <>
      <Navbar />
-        <main className="flex flex-col items-center p-20">
+        <main className="flex flex-col items-center p-24">
       
         <span className="text-lg items-center">Hola mundo</span>
 
